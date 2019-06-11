@@ -1,0 +1,28 @@
+yarn init -y
+
+yarn add express
+
+
+
+ "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+
+yarn dev (npm run ....)
+
+
+yarn add mongoose
+mongodb+srv://m220student:<password>@mflix-qmlul.mongodb.net/test?retryWrites=true&w=majority
+
+
+
+https://support.insomnia.rest/article/23-installation#ubuntu
+
+
+yarn add multer ( especie de bodyparser )
+
+yarn add sharp (manipula imagens)
+
+yarn add cors (backend acessível pelo fronend mesmo em dominios diferentes)
+
+yarn add socket.io  // permite o uso de websocket
