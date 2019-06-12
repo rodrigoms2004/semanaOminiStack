@@ -1,0 +1,77 @@
+yarn create react-app frontend
+
+https://github.com/facebook/create-react-app
+
+cd frontend
+
+yarn start
+
+
+adicionando módulo de rotas no react 
+
+yarn add react-router-dom
+
+
+routes.js
+
+function Routes() {
+    return (
+        <Switch>
+            <Route path="/" exact component={Feed} />
+            <Route path="/new" component={New} />
+        </Switch>
+    )
+}
+
+Switch garante que as rotas serão chamadas individualmente, mesmo possuindo um elemento
+em comum entre elas '/'
+
+exact garante o uso da rota "/" somente no componente Feed, sem isso somente o componente
+Feed funciona independente do caminho no browser
+
+
+
+
+para adicionar codigo javascript dentro do html use chaves 
+
+    export default function components() {
+    return (
+        <header id="main-header">
+            <div className="header-content">
+
+                <img src={logo} alt="InstaRocket" />
+                <img src={camera} alt="Enviar publicação" />
+
+            </div>
+        </header>
+    );
+    }
+
+
+
+yarn add axios
+
+
+
+<article key={post._id}>
+
+
+usar key permite ao React encontrar muito mais facilmente os elementos na DOM
+
+
+No react use arrow functions para ter acesso ao ponteiro this
+
+    handleChange = e => {
+        this.        
+    }
+ 
+
+ Passa função como referencia, quando é necessário enviar parametros
+
+ <button type="button" onClick={() => this.handleLike}>
+
+
+
+socket.io do lado do cliente
+
+yarn add socket.io-client
