@@ -1,0 +1,41 @@
+# guia de instalação android
+
+docs.rocketseat.dev
+
+
+npm install -g react-native-cli
+ou 
+yarn global add react-native-cli
+
+https://source.android.com/setup/start/build-numbers
+
+sdkmanager "platform-tools" "platforms;android-27" "build-tools;27.0.3"
+sdkmanager "platform-tools" "platforms;android-26" "build-tools;26.0.0"
+
+$ export ANDROID_SDK_ROOT=/opt/Android/Sdk
+$ export PATH=$PATH:$ANDROID_SDK_ROOT/tools
+$ export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+
+
+react-native init instarocket
+
+react-native run-android
+
+
+react-native start
+
+
+chacoalhar o device e habilitar opção "Enable Live Reload"
+
+
+yarn add react-navigation react-native-gesture-handler
+
+
+// montando o link nativo da biblioteca, modificando codigos originais do Android e IOS, 
+// toda vez que rodar é necessário reinstalar a aplicação no terminal
+react-native link react-native-gesture-handler
+
+// reinstalando
+react-native run-android
+
+Parei as 22:00 minutos
