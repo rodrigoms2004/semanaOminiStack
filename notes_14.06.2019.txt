@@ -1,0 +1,68 @@
+Ferramentas indicadas
+
+Padronização do código
+
+instalação em ambiente de desenvolvimento
+
+yarn add eslint -D
+
+yarn eslint --init
+
+? How would you like to use ESLint? To check syntax, find problems, and enforce code style
+? What type of modules does your project use? CommonJS (require/exports)
+? Which framework does your project use? None of these
+? Where does your code run? Node
+? How would you like to define a style for your project? Use a popular style guide
+? Which style guide do you want to follow? Airbnb (https://github.com/airbnb/javascript)
+? What format do you want your config file to be in? JavaScript
+Checking peerDependencies of eslint-config-airbnb-base@latest
+The config that you've selected requires the following dependencies:
+
+eslint-config-airbnb-base@latest eslint@^4.19.1 || ^5.3.0 eslint-plugin-import@^2.14.0
+? Would you like to install them now with npm? Yes
+
+como usa npm, remover o arquivo package-lock.json
+e rodar o yarn
+
+yarn
+
+
+instalar extensão eslint no vscode
+
+
+
+
+
+
+no frontend instalar ferramenta para estilos
+
+yarn add styled-components
+
+instalar extensão styled-components no vscode
+
+https://www.youtube.com/watch?v=R3S8DEzEn6s
+
+
+
+react hooks
+https://blog.rocketseat.com.br/react-hooks/
+
+
+sequelize nodejs express
+https://blog.rocketseat.com.br/nodejs-express-sequelize/
+
+
+
+Criação de layouts
+https://dribbble.com/
+https://www.sketchappsources.com/
+https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/search?query=layout
+
+
+Typescript
+
+tipagem estática = definir tipo de variável
+
+React usa typescript
+https://blog.rocketseat.com.br/typescript-vantagens-mitos-conceitos/
+https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg/search?query=typescript
