@@ -38,4 +38,40 @@ react-native link react-native-gesture-handler
 // reinstalando
 react-native run-android
 
-Parei as 22:00 minutos
+// se der problema, reiniciar cahce e blundr
+react-native start --reset-cache
+
+
+// navegação em pilha createStackNavigator
+// navegação com abas em baixo createBottomTabNavigator
+// navegção sem resultao visual createSwitchNavigator
+
+react native lida com diferentes tamanhos de imagens basta usar @nx, onde n é numero inteiro
+imagem.png
+imagem@2x.png
+imagem@3x.png
+
+
+// selecionar no menu desenvolvedor (chacoalhar o device) Debug JS Remotely
+// uma aba do browser será aberta, usar o inspect do Chrome para ler dados do console.log
+
+// biblioteca para acessar a camera e biblioteca de imagens do dispositivo
+yarn add react-native-image-picker
+
+// fazer link com arquivos nativos
+react-native link react-native-image-picker
+
+// acessar documentação
+
+https://github.com/react-native-community/react-native-image-picker
+
+// abrir 
+
+https://github.com/react-native-community/react-native-image-picker/blob/master/docs/Install.md
+
+// no arquivo AndroidManifest.xml colocar as permissões
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+// rodar novamente
+react-native run-android
